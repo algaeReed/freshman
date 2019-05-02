@@ -1,0 +1,10 @@
+<!--pages/publish/publish.wxml-->
+<swiper autoplay indicator-dots indicator-color="	#E1FFFF" indicator-active-color="#00FFFF" circular interval='2000'>
+<swiper-item><image mode="widthFix" src="../../images/swiper/1.png"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="../../images/swiper/2.png"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="../../images/swiper/3.png"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="../../images/swiper/4.png"></image></swiper-item>
+</swiper>
+<view>
+Loading...
+</view>

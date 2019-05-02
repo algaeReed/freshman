@@ -1,0 +1,18 @@
+<!--pages/author/author.wxml-->
+<view id="app">
+	<view class="app-main">
+		<view class="app-about">
+			<image src="../../images/about.png" class="ic-logo"></image>
+			<text class="titile">
+				俏少年
+			</text>
+	
+			
+			<text class="author">
+				陕西邮电职业技术学院-俏少年项目组©版权所有
+				qiaoshaonian@163.com
+			</text>
+		</view>
+		
+	</view>
+</view>

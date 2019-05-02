@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "俏少年",
+  "usingComponents": {
+    "head": "../../components/head/head"
+  }
+}

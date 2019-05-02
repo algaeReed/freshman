@@ -1,0 +1,18 @@
+<!--pages/home/home.wxml-->
+
+<view class="pagebox">
+  <form bindsubmit="publish">
+    <view class="pubbox"><textarea auto-height placeholder="有什么新鲜的事说下来吧" placeholder-class="pubbox-pre" name="content" value="{{content}}" bindinput="onChange"/></view>
+    <view class="pubbutton"><button type="primary" form-type="submit" plain="true" size="mini" wx:if="{{button_enabled}}">发布</button><button type="primary" form-type="submit" plain="true" size="mini" wx:if="{{!button_enabled}}">准备中...</button></view>
+  </form>
+</view>
+
+<view class="preview" wx:if="{{feed.content.length>0}}" >
+<feeditem feeddata="{{feed}}" />
+</view>
+
+<view>
+  <text>{{}}</text>
+</view>
+
+
