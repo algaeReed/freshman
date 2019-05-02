@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/publish/publish",
+    "pages/index/index",
+    "pages/message/message",
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/author/author"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "俏少年",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "首页",
+        "iconPath": "images/bar/home.png",
+        "selectedIconPath": "images/bar/home_active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "话题",
+        "iconPath": "images/bar/message.png",
+        "selectedIconPath": "images/bar/message_active.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "记录",
+        "iconPath": "images/bar/publish.png",
+        "selectedIconPath": "images/bar/publish_active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "images/bar/account.png",
+        "selectedIconPath": "images/bar/account_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
