@@ -1,0 +1,253 @@
+/* pages/home/home.wxss */
+/* 可以不设置大小，其最终显示的大小可以依靠子元素的大小撑开 */
+.navigationBar{
+background: #26A29a;
+}
+/* 通过后代选择器给搜索图标，关闭图标，扫一扫图标设置基本大小 */
+.navigationBar image{
+width: 40rpx;
+height: 40rpx;
+
+}
+/* 通过子代选择器给扫一扫图标设置最终大小 */
+.navigationBar>image{
+width: 60rpx;
+height:60rpx;
+}
+.navigationBar>text{
+color: white;
+font-size: 32rpx; /*这是一个设置字体大小的 */
+margin-left: 34rpx;
+margin-top: 26rpx;
+}
+.searchBar{
+background: white;
+width: 508rpx;
+height: 56rpx;
+border-radius: 10rpx; /* border（边框）-radius（教的内切员的半径）让矩形有了圆角 */
+/* margin: 16rpx 110rpx 16rpx 122rpx; */
+}
+.navigationBar>view, .navigationBar>text, .navigationBar>image{
+display: inline-block;
+vertical-align: middle;
+margin: 16rpx 16rpx;
+}
+.searchBar>image, .searchBar>input{
+display: inline-block;
+vertical-align: middle; /* 水平对齐 */
+margin:0 16rpx;
+}
+.searchBar>input{
+width: 332rpx;
+font-size: 20rpx;
+color: rgb(0, 225, 255); /*这是一个输入颜色 */
+}
+.banner{
+height:328rpx;
+}
+/* .betwwer>image{
+width: 120rpx;
+height: 120rpx;
+vertical-align: middle;
+margin:32rpx 34rpx 16rpx 34rpx
+}
+.subscript>text{
+vertical-align: middle;
+font-size: 25rpx;
+margin: 0rpx 44rpx 0rpx 44rpx;
+color: #666666;
+} */
+.navi-buttons image{
+width: 120rpx;
+height: 120rpx;
+display: block;
+margin-top:32rpx;
+margin-left: 54rpx;
+}
+.navi-buttons text{
+font-size: 24rpx;
+line-height: 24rpx;
+color: #666666;
+margin-left: 66rpx;
+}
+.navi-buttons>view{
+display:inline-block;
+}
+/* border是边框 */
+/* .xiaoai{
+background: rgba(47, 172, 160, 0.24);
+border: 1px solid #26A29a;
+height: 70rpx;
+} */
+/* .xiaoai>image{
+width: 86rpx;
+height: 68rpx;
+}
+.xiaoai>view{
+display: inline-block; 
+margin-left: 14rpx;
+font-size: 0rpx;
+vertical-align: top;
+} */
+/* .xiaoai text{
+font-size: 18rpx;
+line-height: 18rpx;
+}
+.hong ,.hongse{
+color: red
+}
+.yi, .er {
+margin-top: 10rpx;
+} */
+/* borderK可以测试 加上边框*/
+.info{
+margin-top: 20rpx;
+background: rgba(47,172,160,0.24);
+border: 1px solid #26A29a;
+}
+.info>image{
+width: 86rpx;
+height: 68rpx;
+display: inline-block;
+vertical-align: top;
+/* 这是顶部对其 */
+font-size: 0rpx;
+
+/* 清除文字机械对其 */
+}
+	
+.info-text text{
+font-size: 18rpx;
+line-height: 18rpx;/*设置文本的行高 */
+vertical-align: top;
+}
+.info-text{
+display: inline-block;
+font-size: 0rpx;
+}
+.info-text view{
+margin-top: 10rpx;
+margin-left: 14rpx;
+}
+.highlight{
+color: red;
+}
+
+
+.top{
+     font-size: 24rpx;
+     color: #666666;
+     display: inline-block;
+     margin-left: 44rpx;
+     margin-top: 26rpx;
+}
+
+.more{
+    font-size: 18rpx;
+    color: #666666;
+    display: inline-block;  
+    margin-left: 518rpx;
+}
+
+.title>image{
+    width: 14rpx;
+    height:  14rpx;
+    display: inline-block;
+    margin-left: 24rpx;
+}
+
+.title>view{
+    width: 4rpx;
+    height: 24rpx;
+    background: #26A29a;
+    display: inline-block;
+    margin-left: 24rpx;
+    
+}
+
+.topic >image{
+    width: 432rpx;
+    height: 272rpx;
+    display: inline-block;
+    margin: 24rpx 0 24rpx 24rpx;
+}
+
+
+.topic-right{
+    display: inline-block;
+}
+.topic-right image{
+    width: 246rpx;
+    height: 124rpx;
+    display: block;
+    margin: 24rpx;
+}
+.more1{
+    font-size: 18rpx;
+    color: #666666;
+    display: inline-block;  
+    margin-left: 444rpx;
+}
+
+.detail image{
+    width: 336rpx;
+    height: 240rpx;
+    display: block;
+}
+
+.name{
+    font-size: 24rpx;
+    color: #26A29a;
+    display: block;
+    margin-top: 16rpx;
+}
+
+.desc{
+    font-size: 18rpx;
+    color: #999999;
+    display: block;
+    margin-top: 8rpx;
+
+}
+
+.dash{
+    width: 336rpx;
+    height: 1rpx;
+    margin-top: 8rpx;
+    border-top: 1rpx dashed #e0e0e0;
+
+}
+
+.price{
+    font-size: 24rpx;
+    color: #26A29a;
+    margin-top: 16rpx;
+    display: inline-block;
+}
+
+
+.detail button{
+  width: 120rpx;
+  height: 40rpx;
+  background: #26A29a;
+  color: white;
+  font-size: 10rpx;
+  display: inline-block;
+  margin-top: 8rpx;
+  line-height: 44rpx;
+  margin-left: 90rpx;
+}
+
+.detail{
+  margin-left: 24rpx;
+  margin-top: 24rpx;
+  display: inline-block;
+}
+
+.a{
+ height: 300rpx;
+ width: 300rpx;
+ border-radius:50%;
+ background: auqa;
+}
+

@@ -1,0 +1,26 @@
+<!--pages/activity/activity.wxml-->
+<swiper autoplay duration='1000' interval='2000' indicator-dots indicator-color='#fff' indicator-active-color='rgb(142, 221, 126)'>
+<swiper-item wx:for="{{bannerArray}}">
+<image src="{{item}}"></image>
+</swiper-item>
+</swiper>
+<view class='buy'>
+<view class='title'>购车政策</view>
+<image src='/image/image/index/top1.png'></image>
+<view class='buyInfo'>
+<view class='buyName'>特斯拉</view>
+<view class='more'>更多</view>
+<view class='money'>
+<text>补贴金额</text>
+<text>4400</text>
+</view>
+<view class='tax'>
+<text>购置税(元)</text>
+<text>0</text>
+</view>
+</view>
+<view class='about'>
+<text>以上信息为2017年补贴信息详情请联系当地经销商</text>
+<text>更多</text>
+</view>
+</view>

@@ -1,0 +1,87 @@
+/* pages/order/order.wxss */
+.navWrap {
+width: 90%;/* 响应式布局 */
+margin-left: 5%;
+height: 40px;
+}
+.navItem {
+display: inline-block;
+width: 15%;
+height: 100%;
+line-height: 40px;
+margin: 0 2.5%;
+/* 水平居中 */
+text-align: center;
+font-size: 16px;
+color: lightgray;
+}
+.navSelected {
+color: #26a69a;
+border-bottom: 3px solid #26a69a;
+}
+.order {
+margin-top: 20px;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+}
+.orderHeader{
+border-bottom: 1px solid lightgray;
+}
+.orderHeader view{
+height: 35%;
+line-height: 35px;/* 字居中 */
+display: inline-block;
+width: 46%;
+}
+/* nth-child伪类的一种 找到一组元素中的第n个元素 从1开始 */
+.orderHeader view:nth-child(1){
+padding-left: 4%;
+}
+.orderHeader view:nth-child(2){
+text-align: right;
+color: lightgray;
+font-size: 14px;
+}
+.order image {
+width: 45%;
+height: 120px;
+margin-left: 4%;
+margin-top: 20px;
+}
+.orderInfo {
+display: inline-block;
+width: 49%;
+margin-left: 2%;
+vertical-align: top;
+margin-top: 20px;
+}
+.carInfo{
+color: lightgray;
+font-size: 14px;
+}
+.shouldPay {
+font-size: 15px;
+color: lightgray;
+margin-top: 3px;
+}
+.realPay {
+font-size: 20px;
+color: #26a69a;
+margin-top: 5px;
+}
+.btnWrap {
+text-align: right;
+width: 95%;
+padding-right: 5%;
+margin-top: 10px;
+border-top: 1px solid darkgray;
+}
+.btnWrap button {
+margin: 10px 0;
+width: 20%;
+display: inline-block;
+font-size: 12px;
+margin-left: 10px;
+color: darkgray;
+}
+   

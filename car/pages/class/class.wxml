@@ -1,0 +1,34 @@
+<!--pages/class/class.wxml-->
+<view class='navigation'>
+  <view wx:for="{{navArray}}" class="{{navIdex==index?'selectedNav':''}}" bindtap="changeNav" data-idx="{{index}}">{{item}}</view>
+</view>
+
+
+<view class="carWrap" wx:if="{{navIdex == 1}}"> 
+  <view class="car" wx:for="{{carArray}}">
+      <image src="{{item.imgUrl}}"></image>
+      <view class="info">
+        <view class="carName">{{item.carName}}</view>
+        <view class="carInfo">{{item.carInfo}}</view>
+        <view class="star">{{item.star}}分</view>
+        <view class="final">
+          <view class="like">{{item.like}}条口碑</view>
+          <view class="price">${{item.price}}万</view>
+        </view> 
+      </view>
+  </view>
+</view>
+ 
+<view class="carWrap" wx:if="{{navIdex == 0}}">
+  <view class="smallCar" wx:for="{{smallCarArray}}"> 
+    <image src="{{item.imgUrl}}"></image>
+    <view class="carName">{{item.carName}}</view>
+    <view class="carInfo">{{item.carInfo}}</view>
+    <view class="price">${{item.price}}万</view>
+      
+      
+  </view>
+   
+  
+</view>
+  

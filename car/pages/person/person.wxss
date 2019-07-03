@@ -1,0 +1,148 @@
+/* pages/person/person.wxss */
+
+.person_icon text{
+         
+    margin-left: 10px;
+    width:420px;
+    height:82px;
+    text-align:center;
+    line-height: 10px;
+    font-size: 14px;
+    color:#030303;
+    vertical-align:middle;
+}
+
+
+.person_icon .img_icon {
+    margin-left: 250px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.person_icon .more{
+    margin-left: 10px;
+}
+
+.person_nickname image,.person_sex image{
+    margin-left: 180px;
+    line-height: 28px;
+}
+
+ image{
+    width: 48px;
+    height: 48px;
+    /* border: 1px dashed #ccc; */
+    display: inline-block; 
+    vertical-align: middle;
+    text-align: center;
+}
+
+image{
+     height: 48px;
+     width: 48px;
+}
+.img_icon{
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    border-radius: 10px ;
+}
+.img_more{
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+
+}
+
+.person_icon{
+    border-bottom: 1px solid lightgray;
+
+}
+
+.person_name{
+    border-bottom: 1px solid lightgray;
+}
+
+.person_name text:nth-child(1){
+
+    margin-left: 10px;
+    color: #030303;
+    line-height: 40px;
+    height: 12px;
+    font-size: 14px;
+}
+
+.person_name text:nth-child(2){
+    font-size: 10px;
+    color: #999999;
+    margin-left: 64%;   
+
+}
+.person_nickname{
+    border-bottom: 1px solid lightgray
+}
+
+.person_nickname text:nth-child(1){
+    margin-left: 10px;
+    font-size: 14px;
+}
+.person_nickname text:nth-child(2){
+    color: #999999;
+    margin-left: 68%;
+    line-height: 40px;
+    font-size: 10px;
+}
+
+.person_nickname .more{
+    margin-left: 16px;
+}
+
+.person_code{
+    border-bottom: 1px solid lightgray;
+}
+.person_code text{
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 38px;
+}
+
+
+.person_code image{
+    width: 10px;
+    height: 10px;
+    margin: 5px 0 5px 260px ;
+}
+
+.person_code .more{
+    width: 20px;
+    height: 20px;
+    margin-left: 26px;
+}
+
+
+.person_sex{
+    border-bottom: 1px solid lightgray;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.person_sex text{
+    margin-left: 10px;
+}
+.person_sex text:nth-child(2){
+    color: #999999;
+    margin-left: 310px;
+    font-size: 10px;
+}
+.person_sex .more{
+    margin-left: 18px;
+}
+
+.line{
+    border: 8px solid lightgrey;
+}
+
+.more{
+    width: 20px;
+    height: 20px;
+}

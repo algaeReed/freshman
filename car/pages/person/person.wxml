@@ -1,0 +1,35 @@
+<!--pages/person/person.wxml-->
+<view class='person' bindtap='person_to'>
+  <view class='person_icon'>
+    <text>用户头像</text>
+    <image  class="img_icon" src='/image/image/index/car1.png'></image>
+    <image class="more" src='/image/image/tabBar/more.png'></image>
+  </view>
+  <view class='person_name'>
+    <text > 会员名</text>
+    <text > 哈哈哈</text> 
+      
+  </view>
+  
+  <view class='person_nickname'>
+    <text >昵称 </text>
+    <text  >哈哈哈 </text>
+    <image  class="more" src="/image/image/tabBar/more.png"></image>
+  </view>
+  <view class='person_code'>
+    <text >二维码名片</text>
+    <image src="/image/image/tabBar/code.png" ></image>
+    <image class="more" src="/image/image/tabBar/more.png"></image>
+  </view>
+  <view class="line">
+  </view>
+    
+
+  <view class='person_sex'>
+    <text >性别</text>
+    <text >女</text>
+    <image class="more" src="/image/image/tabBar/more.png"></image>
+      
+  </view>
+</view>
+

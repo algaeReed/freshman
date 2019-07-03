@@ -1,0 +1,25 @@
+<!--pages/order/order.wxml-->
+<!-- wx:for有两个默认的属性，index表示每个元素的下标（当前遍历到的元素的下标），item表示当前遍历到的元素 -->
+<view class='navWrap'>
+<view class='navItem {{index==selectedIndex?"navSelected":""}}' wx:for="{{navArray}}" bindtap='changeNav' data-idx="{{index}}">{{item}}</view>
+</view>
+<view class='orderWrap'>
+<view class='order' wx:for="{{tempArray}}">
+<view class='orderHeader'>
+<view>{{item.carName}}</view>
+<view>{{item.orderStatus}}</view>
+</view>
+<image src='{{item.imgUrl}}'></image>
+<view class='orderInfo'>
+<view>{{item.carName}}</view>
+<view class='carInfo'>{{item.carInfo}}</view>
+<view class='shouldPay'>应付账款:￥{{item.shouldPay}}</view>
+<view class='realPay'>实付账款:￥{{item.realPay}}</view>
+</view>
+<view class='btnWrap'>
+<button>删除订单</button>
+<button>置换新车</button>
+<button>立即评价</button>
+</view>
+</view>
+</view>

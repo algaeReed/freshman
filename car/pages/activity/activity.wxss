@@ -1,0 +1,76 @@
+/* pages/activity/activity.wxss */
+swiper-item image {
+width: 100%;
+}
+swiper {
+height: 240px;
+border-bottom: 1px solid rgb(142, 221, 126);
+}
+.buy{
+width: 90%;
+padding: 5px 5%;
+}
+.title {
+width: 90%;
+padding-left: 5%;
+border-left: 1px solid #26a69a;
+margin: 10px 0;
+}
+.buy image{
+width: 50%;
+height: 120px;
+}
+.buyInfo{
+display: inline-block;
+vertical-align: top;
+margin-left: 10px;
+width: 46%;
+}
+.buyName{
+display: inline-block;
+height: 40px;
+line-height: 40px;
+}
+.more{
+display: inline-block;
+color: lightgray;
+font-size: 14px;
+margin-left: 5px;
+}
+.money{
+border: 1px dotted lightgray;
+width: 100%;
+margin-top: 10px;
+height: 40px;
+line-height: 40px;
+}
+.money text{
+display: inline-block;
+color: red;
+width: 50%;
+font-size: 18px;
+}
+.money text:nth-child(2){
+text-align: right;
+}
+.tax{
+height: 40px;
+margin-top: 10px;
+}
+.tax text {
+display: inline-block;
+width: 50%;
+font-size: 15px;
+}
+.tax text:nth-child(2){
+text-align: right;
+}
+.about text{
+display: inline-block;
+font-size: 13px;
+width: 50%;
+}
+.about text:nth-child(2){
+text-align: right;
+color: darkgray;
+}

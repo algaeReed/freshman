@@ -1,0 +1,228 @@
+
+<view class='navigationBar'>
+  <text>北京 </text>
+  <view class='searchBar'>
+    <image src='/image/image/tabBar/search.png'></image>
+    <input type='type' placeholder='Sketch'></input>
+    <image src='/image/image/tabBar/close.png'></image>
+    
+  </view>
+  <image src='/image/image/tabBar/scan.png'></image>
+  
+<swiper class='banner' autoplay duration='3000' interval='1000' circular indicator-dots indicator-color='#26a69a' indicator-active-color='#fff' >
+  <swiper-item >
+    <cover-image src='http://pswt07hsy.bkt.clouddn.com/d.jfif'>                   </cover-image>
+  </swiper-item>
+   <swiper-item>
+    <cover-image src='http://pswt07hsy.bkt.clouddn.com/d.jfif'>                   </cover-image>
+  </swiper-item>
+   <swiper-item>
+    <cover-image src='http://pswt07hsy.bkt.clouddn.com/d.jfif'>                   </cover-image>
+  </swiper-item>
+</swiper>
+  
+ <audio hidden poster="http://pswt07hsy.bkt.clouddn.com/d.jfif" name="Love You Like the Movies" author="Anthem Lights" src="http://pswt07hsy.bkt.clouddn.com/050f_0f5b_0708_2e6da35a2f81a81ad8780b98af2c9062.m4a" id="myAudio" controls loop></audio>
+</view>
+
+<!-- <view class='test'>
+  <cover-image src='/image/image/in./dex/banner1.png'>
+  </cover-image>
+</view> -->
+
+<!-- <view class="subnav">
+
+  <view class="sidebar">
+    <view class="list" id='1' >
+      <image class="navimg" src="/image/image/tabBar/nav1.png"></image>   
+    </view> 
+    <view class="text">优惠活动</view>
+  </view>
+
+ <view class="sidebar">
+    <view class="list" id='2'>
+      <image class="navimg" src="/image/image/tabBar/nav2.png"></image>
+        
+    </view>
+      
+    <view class="text">优惠活动</view>
+  </view>
+   <view class="sidebar">
+    <view class="list" id='3'>
+      <image class="navimg" src="/image/image/tabBar/nav3.png"></image>
+        
+    </view>
+      
+    <view class="text">优惠活动</view>
+  </view> <view class="sidebar">
+    <view class="list" id='4'>
+      <image class="navimg" src="/image/image/tabBar/nav4.png"></image>
+        
+    </view>
+      
+    <view class="text">优惠活动</view>
+  </view>
+</view>
+  
+
+   -->
+
+   <view class="navi-buttons">
+
+    <view class="anv1" bindtap = "navTo">
+    <image class="navimg" src="/image/image/tabBar/nav1.png"></image> 
+      <text>优惠活动</text>
+    </view>
+
+    <view class="nav2">
+       <image class="navimg" src="/image/image/tabBar/nav2.png"></image>
+      <text>商家联盟</text>
+    </view>
+
+    <view class="nav3">
+       <image class="navimg" src="/image/image/tabBar/nav3.png"></image>
+      <text>汽车资讯</text>
+    </view>
+
+    <view class="nav4">
+       <image class="navimg" src="/image/image/tabBar/nav4.png"></image>
+      <text>售后服务</text>
+    </view>
+      
+     
+   </view>
+<!-- 
+
+<view  class='view'>
+    <image class="img" src="/image/image/index/info.png"/>
+    <view class='text'>
+      <view class='top'>
+        <text class='first'>目前 </text>
+        <text class='second'>10000人 </text>
+        <text class='thired'> 为绿化做出贡献</text>
+      </view>
+      <view class='bottom'>
+        <text class='first'>您可以成为</text>
+        <text class='second'>第10002人 </text>
+        <text class='thired'> 为绿化做出贡献</text>
+      </view>
+    </view>
+</view>
+   -->
+<view class='info'>
+  <image src="/image/image/index/info.png"></image>
+  <view class='info-text'>
+    <view>
+      <text>目前</text>
+      <text class='highlight'>10000人</text>
+      <text>为绿化做出贡献</text>
+    </view>
+     <view>
+      <text>您可以成为</text>
+      <text class='highlight'>第10002人</text>
+      <text>为绿化做出贡献</text>
+    </view>
+  </view>
+    
+</view>
+  
+<swiper class='banner' autoplay duration='3000' interval='1000' circular indicator-dots indicator-color='#26a69a' indicator-active-color='#fff' >
+  <swiper-item >
+    <cover-image src='http://pswt07hsy.bkt.clouddn.com/d.jfif'>                   </cover-image>
+  </swiper-item>
+   <swiper-item>
+    <cover-image src='http://pswt07hsy.bkt.clouddn.com/d.jfif'>                   </cover-image>
+  </swiper-item>
+   <swiper-item>
+    <cover-image src='http://pswt07hsy.bkt.clouddn.com/d.jfif'>                   </cover-image>
+  </swiper-item>
+</swiper>
+
+<!-- <view>
+  <view>
+  
+    <text>Top排行</text>
+    <text>更多</text>
+    <image src='/image/image/tabBar/more.png' ></image>
+  </view>
+
+  <view>
+    <image src='/image/image/index/top1.png'></image>
+    <view>
+      <image src='/image/image/index/top1.png'></image>
+      <image src='/image/image/index/top1.png'></image>
+    </view>
+  </view>
+
+</view> -->
+<view>
+  <view class="title">
+    <view></view>
+      
+    <text class="top">Top排行</text>
+    <text class="more">更多</text>
+    <image src='/image/image/tabBar/more.png' ></image>
+  </view>
+
+  <view class="topic">
+    <image src='/image/image/index/top1.png'></image>
+    <view class="topic-right">
+      <image src='/image/image/index/top2.png'></image>
+      <image src='/image/image/index/top3.png'></image>
+    </view>
+  </view>
+
+</view>
+
+<view>
+  <view class="title">
+    <view></view>
+      
+    <text class="top">新能源品牌热卖</text>
+    <text class="more1">更多</text>
+    <image src='/image/image/tabBar/more.png' ></image>
+  </view> 
+
+  <view class='detail'>
+    <image src='http://pswt07hsy.bkt.clouddn.com/%E7%A9%BA%E8%90%8C%E3%80%8227.png'></image>
+    <text class='name'>特斯拉</text>
+    <text class="desc">特斯拉特斯拉特斯拉</text>
+    <view class="dash"></view>
+    <text class='price'>$34,223.00</text>
+    <button>加入购物车</button>
+  </view>
+    <view class='detail'>
+    <image src='http://pswt07hsy.bkt.clouddn.com/%E7%A9%BA%E8%90%8C%E3%80%8277.png'></image>
+    <text class='name'>特斯拉</text>
+    <text class="desc">特斯拉特斯拉特斯拉</text>
+    <view class="dash"></view>
+    <text class='price'>$34,223.00</text>
+    <button>加入购物车</button>
+  </view><view class='detail'>
+    <image src='http://pswt07hsy.bkt.clouddn.com/%E7%A9%BA%E8%90%8C%E3%80%8214.png'></image>
+    <text class='name'>特斯拉</text>
+    <text class="desc">特斯拉特斯拉特斯拉</text>
+    <view class="dash"></view>
+    <text class='price'>$34,223.00</text>
+    <button>加入购物车</button>
+  </view><view class='detail'>
+    <image src='http://pswt07hsy.bkt.clouddn.com/%E7%A9%BA%E8%90%8C%E3%80%8287.png'></image>
+    <text class='name'>特斯拉</text>
+    <text class="desc">特斯拉特斯拉特斯拉</text>
+    <view class="dash"></view>
+    <text class='price'>$34,223.00</text>
+    <button>加入购物车</button>
+  </view><view class='detail'>
+    <image src='http://pswt07hsy.bkt.clouddn.com/%E7%A9%BA%E8%90%8C%E3%80%8286.png'></image>
+    <text class='name'>特斯拉</text>
+    <text class="desc">特斯拉特斯拉特斯拉</text>
+    <view class="dash"></view>
+    <text class='price'>$34,223.00</text>
+    <button>加入购物车</button>
+  </view>
+ 
+
+</view>
+
+
+
+<view class='a'></view>

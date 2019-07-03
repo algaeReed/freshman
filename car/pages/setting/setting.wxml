@@ -1,0 +1,39 @@
+<!--pages/setting/setting.wxml-->
+<view class='user_info'>
+<image src="/image/image/index/car1.png"></image>
+ <view class='user_name'>
+    <view>你好你好</view>
+    <view>会员名:哈哈哈</view>
+  </view>
+  <image class="user_code" src='/image/image/tabBar/code.png'></image>
+  <image class="user_more" src='/image/image/tabBar/more.png'></image>
+</view>
+
+
+
+
+<view class='address'>
+  <view>我的收货地址</view>
+  <image class="addr_more" src='/image/image/tabBar/more.png'></image>
+</view>
+<view class="space"></view>
+  
+<view class='safe'> 
+  <view>账户与安全</view>
+  <image src='/image/image/tabBar/more.png'></image>
+</view>
+<view class="space"></view>
+<view class='other_info'>
+  <view>地区设置</view>
+  <view>隐私</view>
+  <view>通知</view>
+</view>
+<view class="space"></view>
+<view class='about'>关于平台</view>
+<view class="space"></view>
+
+<view class="footer">
+  <button >退出当前账户</button>
+</view>
+  
+<view class='footer'></view>
